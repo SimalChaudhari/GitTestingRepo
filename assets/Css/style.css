@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: cursive;
 }
+::selection {
+    color: teal;
+    background: #edd564;
+  }
 
 body {
     display: grid;
