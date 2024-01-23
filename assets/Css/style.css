@@ -1,13 +1,26 @@
+:root {
+    --primary-color: teal;
+    --secondary-color: #edd564;
+    --background-color: rgba(0, 128, 128, 0.727);
+    --text-color: #555;
+    --hover-color: #000;
+    --heading-color: #3a0080;
+    --subheading-color: #67ed64;
+    --button-background: #fff;
+    --button-border: teal;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: cursive;
 }
+
 ::selection {
-    color: teal;
-    background: #edd564;
-  }
+    color: var(--primary-color);
+    background: var(--secondary-color);
+}
 
 body {
     display: grid;
@@ -15,7 +28,6 @@ body {
 }
 
 header {
-    /* background-color: #333; */
     padding: 20px;
 }
 
@@ -38,13 +50,13 @@ li {
 
 a {
     text-decoration: none;
-    color: #555;
+    color: var(--text-color);
     font-weight: bold;
 }
+
 a:hover {
     text-decoration: none;
-    color: #000;
-    font-weight: bold;
+    color: var(--hover-color);
 }
 
 .hero {
@@ -53,36 +65,38 @@ a:hover {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    /* filter: blur(5px); */
     color: white;
     text-align: center;
 }
 
-.hero_text{
+.hero_text {
     text-align: center;
 }
+
 .hero_head_text {
-    color: teal;
+    color: var(--primary-color);
     font-size: 5rem;
     margin-top: 10rem;
 }
 
 .hero_p_text {
-    color: #edd564;
+    color: var(--secondary-color);
     font-size: 3rem;
     margin-top: 5rem;
     font-weight: bold;
 }
-.search_btn{
-    background-color: rgba(0, 128, 128, 0.727);
+
+.search_btn {
+    background-color: var(--background-color);
     color: #fff;
     border-radius: 20%;
     padding: 0.4rem;
 }
-.search_btn:hover{
-    background-color: #fff;
-    border: 2px solid teal;
-    color: teal;
+
+.search_btn:hover {
+    background-color: var(--button-background);
+    border: 2px solid var(--button-border);
+    color: var(--button-border);
 }
 
 /* Responsive Styling */
@@ -102,13 +116,13 @@ a:hover {
     }
     
     .hero_head_text {
-        color: #3a0080;
+        color: var(--heading-color);
         font-size: 3rem;
         margin-top: 1rem;
     }
 
     .hero_p_text {
-        color: #67ed64;
+        color: var(--subheading-color);
         font-size: 2.5rem;
         margin-top: 1.5rem;
         font-weight: bold;
