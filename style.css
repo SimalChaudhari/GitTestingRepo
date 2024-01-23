@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0 auto;
+    font-family: cursive;
 }
 body{
     display: grid;
@@ -11,4 +12,22 @@ h1{
 }
 p{
     color: cornflowerblue;
+}
+.hero{
+    /* background-image: url("img_tree.gif"), url("paper.gif"); */
+    background-image: url("./assets/Image/Back6.jpg");
+    background-size: cover;
+    background-repeat: round;
+    height: 100vh;
+    width: 100%;
+    /* filter: blur(5px); */
+    /* filter: blur(5px) brightness(120%) contrast(150%); */
+    /* filter: sepia(50%); */
+    /* filter: saturate(200%); */
+    /* filter: opacity(80%); */
+    /* filter: invert(75%); */
+    /* filter: hue-rotate(90deg); */
+    /* filter: grayscale(50%); */
+    /* filter: contrast(150%); */
+    /* filter: brightness(150%); */
 }
