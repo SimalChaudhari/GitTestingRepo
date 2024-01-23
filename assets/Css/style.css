@@ -73,6 +73,17 @@ a:hover {
     margin-top: 5rem;
     font-weight: bold;
 }
+.search_btn{
+    background-color: rgba(0, 128, 128, 0.727);
+    color: #fff;
+    border-radius: 20%;
+    padding: 0.4rem;
+}
+.search_btn:hover{
+    background-color: #fff;
+    border: 2px solid teal;
+    color: teal;
+}
 
 /* Responsive Styling */
 @media screen and (max-width: 425px) {
