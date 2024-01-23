@@ -54,12 +54,20 @@ a:hover {
     text-align: center;
 }
 
-h1 {
+.hero_text{
+    text-align: center;
+}
+.hero_head_text {
     color: teal;
+    font-size: 5rem;
+    margin-top: 10rem;
 }
 
-p {
-    color: cornflowerblue;
+.hero_p_text {
+    color: #edd564;
+    font-size: 3rem;
+    margin-top: 5rem;
+    font-weight: bold;
 }
 
 /* Responsive Styling */
@@ -76,5 +84,21 @@ p {
     li {
         display: block;
         margin: 10px 0;
+    }
+    
+    .hero_head_text {
+        color: #3a0080;
+        font-size: 3rem;
+        margin-top: 1rem;
+    }
+
+    .hero_p_text {
+        color: #67ed64;
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+        font-weight: bold;
+    }
+    .hero_text{
+        padding: 0 30px;
     }
 }
