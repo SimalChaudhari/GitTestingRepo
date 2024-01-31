@@ -68,6 +68,7 @@ a:hover {
   width: 100%;
   color: white;
   text-align: center;
+  background-position: center;
 }
 
 .hero_text {
